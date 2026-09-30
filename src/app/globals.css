@@ -1,0 +1,37 @@
+/* src/app/globals.css */
+@import "tailwindcss";
+
+@theme {
+  /* BUMIVERSA Brand Colors (LOCKED DNA) */
+  --color-bumiversa-50: #f0f4ff;
+  --color-bumiversa-500: #2563eb;
+  --color-bumiversa-900: #000040; /* Deep Navy */
+
+  /* Neutral Colors */
+  --color-neutral-50: #f8fafc;
+  --color-neutral-600: #475569;
+  --color-neutral-850: #172033;
+
+  /* Signature Accent (Gold) */
+  --color-accent: #EAB308;
+
+  /* Layout & Spacing */
+  --max-w-content: 72rem;
+}
+
+/* Utility: Navy Deep dengan Grid Halus */
+.bg-navy-grid {
+  background-color: #000040;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 60px 60px;
+  background-position: center center;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-geist-sans: 'Geist', sans-serif;
+  --font-geist-mono: 'Geist Mono', monospace;
+}
